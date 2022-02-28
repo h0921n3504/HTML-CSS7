@@ -1,0 +1,36 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.blog {
+  width: 100%; /* 横幅max */
+  height: 400px; /* 縦400px */
+  background-image: url(./img/mv.jpg);
+  background-position: bottom; /* 背景画像を中央に配置 */
+  background-size: cover; /* 縦横比を維持し，領域全体を覆うサイズに */
+}
+
+.blog-heading {
+  padding: 20px 0 0 20px; /* 上と左に20pxあける */
+}
+
+.blog-box {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 840px; /* 横幅を840pxにする */
+  margin: 0 auto; /* 中央にする */
+}
+
+.blog-image {
+  height: auto;
+}
+
+.blog-item {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid #f7f7f7; /* 一番下にラインを引く */
+}
